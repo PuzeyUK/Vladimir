@@ -1,0 +1,10 @@
+var person = ["Вова", "Муся", "Вася", "Ирочка"];
+var verb = ["любит", "обожает"];
+var noun = ["-лапочка", "-мать", "-хозяйка", "-бизнес-лидер"];
+var smile = [" :)", " ;)", " =^.^="];
+var person = person[Math.floor(Math.random() * person.length)];
+var verb = verb[Math.floor(Math.random() * verb.length)];
+var noun = noun[Math.floor(Math.random() * noun.length)];
+var smile = smile[Math.floor(Math.random() * smile.length)];
+var totalResolut = person + " " + verb + " Натусика " + "потому, что Натусик" + noun + smile;
+totalResolut;
